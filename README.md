@@ -1,7 +1,10 @@
 # temario-app-web
 # Propósito de Aprendizaje 1: Comprender los fundamentos del desarrollo de aplicaciones web
 
----
+
+
+<img width="1399" height="503" alt="image" src="https://github.com/user-attachments/assets/cecc12d9-52c1-46fb-b976-feb6dfd36c9c" />
+
 
 ## 1. Introducción al desarrollo web
 
@@ -60,7 +63,11 @@ Esta separación mejora la organización, escalabilidad y mantenimiento de la ap
 
 # Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web
 
----
+
+
+
+<img width="1460" height="730" alt="image" src="https://github.com/user-attachments/assets/7ef46de6-3d27-485f-a442-d016f6110fea" />
+
 
 ## 1. Diseño e implementación del frontend
 
@@ -115,7 +122,10 @@ Esta separación mejora la organización, escalabilidad y mantenimiento de la ap
 
 # Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional
 
----
+
+
+<img width="1946" height="1134" alt="image" src="https://github.com/user-attachments/assets/d1bf23a0-9e13-4ca6-8962-90a11958dc64" />
+
 
 ## 1. Integración de frontend y backend
 
