@@ -44,7 +44,7 @@ Esta separación mejora la organización, escalabilidad y mantenimiento de la ap
 - **CSS (Cascading Style Sheets):** Se encarga del diseño y la presentación visual.
 - **JavaScript:** Lenguaje de programación que permite la interactividad y dinamismo en la web.
 - **PHP:** Lenguaje de programación del lado del servidor para crear aplicaciones web dinámicas.
-- **MySQL:** Sistema de gestión de bases de datos relacional, utilizado para almacenar información de forma estructurada.
+- **MySQL:** Sistema de gestión de bases de datos relacional, utilizado para almacenar información de forma estructurada. 
 
 ---
 
