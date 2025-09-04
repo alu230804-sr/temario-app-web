@@ -58,35 +58,112 @@ Esta separación mejora la organización, escalabilidad y mantenimiento de la ap
 
 ---
 
-Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web
-1.-Diseño e implementación del frontend
-Maquetación/Wireframe/Mockup
-API
-2.-Diseño e implementación del backend
-Servidor
-Manejo de peticiones y respuestas HTTP
-Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)
-3.-Bases de datos
- Modelado de datos y relaciones
-ORM (Object Relational Mapping)
-CRUD desde el backend
-4.-Seguridad básica en aplicaciones web
-Validación de formularios
-Autenticación y autorización 
+# Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una aplicación web
 
-Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional
-1. -Integración de frontend y backend
-Interfaz de usuario Frontend
-Manejo de API
-Proceso de Solicitud y Respuesta de Backend
+---
 
-2.- Almacenamiento en Servidor
-Tipos de servidores 
-Servidores y servicios de hosting 
-Proveedores de Servicios de Almacenamiento
+## 1. Diseño e implementación del frontend
 
-3.-Optimización y rendimiento
-Optimización de recursos (imágenes, scripts)
-Despliegue de aplicaciones web
-CI/CD básico
-Documentación del proyecto
+### Maquetación/Wireframe/Mockup
+- **Maquetación:** Es el proceso de estructurar visualmente una página web usando HTML y CSS, posicionando los elementos según el diseño deseado.
+- **Wireframe:** Esquema visual básico de una interfaz, similar a un boceto, que muestra la organización y distribución de los elementos sin detalles gráficos.
+- **Mockup:** Representación visual más detallada y realista del diseño final, incluyendo colores, tipografías, imágenes y estilos, pero sin funcionalidad.
+
+### API
+- **API (Interfaz de Programación de Aplicaciones):** Es un conjunto de reglas que permite que el frontend se comunique con el backend para obtener o enviar datos. Generalmente, esta comunicación se realiza a través de peticiones HTTP (GET, POST, PUT, DELETE).
+
+---
+
+## 2. Diseño e implementación del backend
+
+### Servidor
+- El servidor es el encargado de procesar las peticiones del cliente, ejecutar la lógica de negocio, interactuar con la base de datos y devolver una respuesta adecuada.
+
+### Manejo de peticiones y respuestas HTTP
+- El backend recibe peticiones HTTP del frontend (por ejemplo, solicitar datos o enviar formularios), las procesa y responde con datos, normalmente en formato JSON o HTML, junto con un código de estado HTTP.
+
+### Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)
+- El backend se conecta a bases de datos para almacenar, consultar y modificar información.
+  - **MySQL y PostgreSQL:** Bases de datos relacionales, organizan la información en tablas y relaciones.
+  - **MongoDB:** Base de datos NoSQL, organiza la información en documentos tipo JSON, flexible y escalable.
+
+---
+
+## 3. Bases de datos
+
+### Modelado de datos y relaciones
+- Consiste en diseñar la estructura de la base de datos definiendo tablas (o colecciones), campos y las relaciones entre ellas (uno a uno, uno a muchos, muchos a muchos).
+
+### ORM (Object Relational Mapping)
+- Es una técnica que permite convertir datos entre sistemas incompatibles (como objetos en un lenguaje de programación y tablas en una base de datos relacional) automáticamente. Ejemplos de ORMs son Sequelize (Node.js), SQLAlchemy (Python) o Eloquent (Laravel/PHP).
+
+### CRUD desde el backend
+- CRUD son las operaciones básicas de una base de datos: **Crear (Create), Leer (Read), Actualizar (Update), Eliminar (Delete)**. El backend implementa estos métodos para interactuar con la base de datos a través de la API.
+
+---
+
+## 4. Seguridad básica en aplicaciones web
+
+### Validación de formularios
+- Es el proceso de verificar que los datos ingresados por el usuario cumplen con los requisitos necesarios (por ejemplo, formato de correo electrónico, contraseñas seguras) antes de ser procesados o almacenados.
+
+### Autenticación y autorización
+- **Autenticación:** Es el proceso de verificar la identidad de un usuario, normalmente a través de un login (usuario y contraseña).
+- **Autorización:** Es el proceso de asignar permisos y controlar qué recursos o acciones puede realizar un usuario autenticado, asegurando que solo accedan a lo que tienen permitido.
+
+---
+
+# Propósito de Aprendizaje 3: Implementar y desplegar una aplicación web funcional
+
+---
+
+## 1. Integración de frontend y backend
+
+### Interfaz de usuario Frontend
+El **frontend** es la parte visible de la aplicación con la que interactúa el usuario. Incluye todos los elementos gráficos, formularios, botones y la navegación de la web. El desarrollo frontend utiliza tecnologías como HTML, CSS y JavaScript, y frameworks/librerías como React, Vue o Angular para crear experiencias interactivas y responsivas.
+
+### Manejo de API
+La **API** (Interfaz de Programación de Aplicaciones) permite la comunicación entre el frontend y el backend. El frontend envía solicitudes a la API (por ejemplo, para obtener datos de usuarios o enviar formularios) mediante protocolos como HTTP, generalmente usando métodos como GET, POST, PUT y DELETE. El backend procesa estas solicitudes y responde con los datos necesarios, normalmente en formato JSON.
+
+### Proceso de Solicitud y Respuesta de Backend
+Cuando el usuario interactúa con la aplicación (por ejemplo, enviando un formulario), el frontend envía una **solicitud HTTP** al backend. El backend recibe esta solicitud, ejecuta la lógica requerida (validaciones, consultas a la base de datos, etc.), y envía una **respuesta** al frontend, que puede incluir datos, mensajes de éxito o error. Este ciclo permite la integración fluida entre las dos partes de la aplicación.
+
+---
+
+## 2. Almacenamiento en Servidor
+
+### Tipos de servidores 
+- **Servidor físico:** Computadora dedicada exclusivamente a alojar y ejecutar aplicaciones web.
+- **Servidor virtual (VPS):** Espacio virtualizado dentro de un servidor físico, que funciona como un servidor independiente.
+- **Servidor en la nube:** Infraestructura proporcionada por plataformas como AWS, Azure o Google Cloud, con escalabilidad y administración flexible.
+
+### Servidores y servicios de hosting
+- **Hosting compartido:** Varios sitios web comparten los recursos de un mismo servidor, es económico pero con recursos limitados.
+- **Hosting dedicado:** Un servidor exclusivo para un solo sitio o aplicación, con mayor control y rendimiento.
+- **Hosting en la nube:** Recursos distribuidos en varios servidores, permitiendo escalar la aplicación según la demanda.
+
+### Proveedores de Servicios de Almacenamiento
+- **Amazon Web Services (AWS):** Ofrece servicios como EC2 (servidores virtuales) y S3 (almacenamiento de archivos).
+- **Microsoft Azure:** Plataforma de computación en la nube con servicios de hosting y bases de datos.
+- **Google Cloud Platform:** Soluciones escalables para despliegue y almacenamiento.
+- **Otros proveedores populares:** DigitalOcean, Heroku, Vercel, Netlify.
+
+---
+
+## 3. Optimización y rendimiento
+
+### Optimización de recursos (imágenes, scripts)
+- **Imágenes:** Comprimir imágenes, usar formatos modernos (WebP), y cargar solo las necesarias (lazy loading) para mejorar la velocidad.
+- **Scripts:** Minimizar, comprimir y combinar archivos JavaScript y CSS para reducir el tiempo de carga. Usar técnicas como carga asíncrona y deferida.
+
+### Despliegue de aplicaciones web
+- **Despliegue:** Proceso de publicar la aplicación en un servidor o servicio de hosting para que esté accesible a los usuarios.
+- **Herramientas comunes:** FTP/SFTP, Git, plataformas como Vercel, Netlify, Heroku, o mediante pipelines automatizados.
+
+### CI/CD básico
+- **CI/CD (Integración Continua/Entrega Continua):** Prácticas que automatizan la integración de cambios de código, ejecución de pruebas y despliegue a producción. Herramientas como GitHub Actions, GitLab CI o Jenkins permiten crear flujos automatizados para asegurar calidad y rapidez en el desarrollo.
+
+### Documentación del proyecto
+- La **documentación** explica cómo instalar, configurar, y utilizar la aplicación. Incluye instrucciones para desarrolladores y usuarios finales, detalles de la arquitectura, endpoints de la API, y cualquier otra información relevante para el correcto uso y mantenimiento del proyecto.
+
+---
